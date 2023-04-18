@@ -1,7 +1,7 @@
-package com.svc.pr.controller;
+package com.svc.imex.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.svc.pr.service.ExportServiceInterface;
+import com.svc.imex.service.ExportServiceInterface;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

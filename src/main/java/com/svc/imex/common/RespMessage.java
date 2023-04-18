@@ -1,4 +1,4 @@
-package com.svc.pr.common;
+package com.svc.imex.common;
 
 public class RespMessage {
     public static final String IMPORTED_CUSTOMER = "Customer imported successfully!";

@@ -1,6 +1,6 @@
-package com.svc.pr.repository;
+package com.svc.imex.repository;
 
-import com.svc.pr.domain.entity.Customer;
+import com.svc.imex.domain.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

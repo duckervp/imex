@@ -1,6 +1,6 @@
-package com.svc.pr.common;
+package com.svc.imex.common;
 
-import com.svc.pr.domain.entity.Gender;
+import com.svc.imex.domain.entity.Gender;
 
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;

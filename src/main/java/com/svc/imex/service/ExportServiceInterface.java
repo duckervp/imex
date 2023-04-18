@@ -1,4 +1,4 @@
-package com.svc.pr.service;
+package com.svc.imex.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 

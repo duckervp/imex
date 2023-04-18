@@ -1,8 +1,8 @@
-package com.svc.pr.controller;
+package com.svc.imex.controller;
 
-import com.svc.pr.common.RespMessage;
-import com.svc.pr.common.Response;
-import com.svc.pr.service.ImportServiceInterface;
+import com.svc.imex.common.RespMessage;
+import com.svc.imex.common.Response;
+import com.svc.imex.service.ImportServiceInterface;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

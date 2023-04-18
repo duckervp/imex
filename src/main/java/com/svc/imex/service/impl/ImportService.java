@@ -1,12 +1,12 @@
-package com.svc.pr.service.impl;
+package com.svc.imex.service.impl;
 
-import com.svc.pr.common.Utils;
-import com.svc.pr.domain.entity.Customer;
-import com.svc.pr.domain.entity.Gender;
-import com.svc.pr.domain.entity.Status;
-import com.svc.pr.domain.exception.ValidateException;
-import com.svc.pr.repository.CustomerRepository;
-import com.svc.pr.service.ImportServiceInterface;
+import com.svc.imex.common.Utils;
+import com.svc.imex.domain.entity.Customer;
+import com.svc.imex.domain.entity.Gender;
+import com.svc.imex.domain.entity.Status;
+import com.svc.imex.domain.exception.ValidateException;
+import com.svc.imex.repository.CustomerRepository;
+import com.svc.imex.service.ImportServiceInterface;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;

@@ -1,4 +1,4 @@
-package com.svc.pr.domain.exception;
+package com.svc.imex.domain.exception;
 
 public class ValidateException extends RuntimeException {
     public ValidateException(String message) {

@@ -1,7 +1,7 @@
-package com.svc.pr.repository;
+package com.svc.imex.repository;
 
-import com.svc.pr.domain.entity.Customer;
-import com.svc.pr.service.ExportServiceInterface;
+import com.svc.imex.domain.entity.Customer;
+import com.svc.imex.service.ExportServiceInterface;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
@@ -9,7 +9,6 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import java.time.LocalDateTime;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 

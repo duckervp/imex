@@ -1,4 +1,4 @@
-package com.svc.pr.common;
+package com.svc.imex.common;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
