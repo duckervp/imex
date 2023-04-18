@@ -1,0 +1,21 @@
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: movie-service
+  jpa:
+    showSql: true
+    openInView: false
+    databasePlatform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddlAuto: update
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://${service.mysql.hostname:localhost}:${service.mysql.port:3306}/${service.mysql.database:imex}?autoReconnect=true&allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true
+    username: ${service.mysql.username:root}
+    password: ${service.mysql.password:root}
